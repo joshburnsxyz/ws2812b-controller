@@ -2,7 +2,7 @@
 #include <DisplayPatterns.h>
 
 #define LED_PIN     7
-#define BTN_PIN     4
+#define BTN_PIN     10
 #define NUM_LEDS    20
 
 // LED Interface
