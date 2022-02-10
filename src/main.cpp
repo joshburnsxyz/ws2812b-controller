@@ -25,6 +25,7 @@ void loop() {
             break;
         case 3:
             // Off
+            DisplayPatterns::Off();
             break;
     }
 }
