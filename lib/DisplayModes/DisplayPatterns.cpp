@@ -6,3 +6,9 @@ void DisplayPatterns::StaticGlow(CRGB leds, int num_leds)
     }
     return;
 }
+
+void DisplayPatterns::Off() 
+    FastLED.clear();    
+    FastLED.show();
+    return;
+}
