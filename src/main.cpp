@@ -1,4 +1,5 @@
 #include <FastLED.h>
+#include <DisplayPatterns.h>
 
 #define LED_PIN     7
 #define NUM_LEDS    20
@@ -14,6 +15,7 @@ void loop() {
     switch(DISP_MODE) {
         case 0:
             // Static Glow
+            DisplayPatterns::StaticGlow();
             break;
         case 1:
             // Demo 1
