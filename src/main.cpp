@@ -14,8 +14,8 @@ void setup() {
 void loop() {
     switch(DISP_MODE) {
         case 0:
-            // Static Glow
-            DisplayPatterns::StaticGlow(leds, NUM_LEDS);
+            // Blue
+            DisplayPatterns::StaticGlowBlue(leds, NUM_LEDS);
             break;
         case 1:
             // Demo 1
